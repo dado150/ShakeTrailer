@@ -15,6 +15,9 @@
 		0B3790291C5FDFD50021C87F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B3790271C5FDFD50021C87F /* LaunchScreen.storyboard */; };
 		0B3790341C5FDFD50021C87F /* ShakeTrailerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3790331C5FDFD50021C87F /* ShakeTrailerTests.swift */; };
 		0B37903F1C5FDFD50021C87F /* ShakeTrailerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B37903E1C5FDFD50021C87F /* ShakeTrailerUITests.swift */; };
+		0B37904E1C5FE4EC0021C87F /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B37904C1C5FE4EC0021C87F /* menu@2x.png */; };
+		0B37904F1C5FE4EC0021C87F /* save@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B37904D1C5FE4EC0021C87F /* save@2x.png */; };
+		0B3790521C5FE9500021C87F /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B3790511C5FE9500021C87F /* bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		0B37903A1C5FDFD50021C87F /* ShakeTrailerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakeTrailerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B37903E1C5FDFD50021C87F /* ShakeTrailerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeTrailerUITests.swift; sourceTree = "<group>"; };
 		0B3790401C5FDFD50021C87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B37904C1C5FE4EC0021C87F /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		0B37904D1C5FE4EC0021C87F /* save@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "save@2x.png"; sourceTree = "<group>"; };
+		0B3790511C5FE9500021C87F /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		0B37901A1C5FDFD50021C87F /* ShakeTrailer */ = {
 			isa = PBXGroup;
 			children = (
+				0B3790501C5FE4F20021C87F /* images */,
 				0B37901B1C5FDFD50021C87F /* AppDelegate.swift */,
 				0B37901D1C5FDFD50021C87F /* ViewController.swift */,
 				0B37901F1C5FDFD50021C87F /* Main.storyboard */,
@@ -126,6 +133,16 @@
 				0B3790401C5FDFD50021C87F /* Info.plist */,
 			);
 			path = ShakeTrailerUITests;
+			sourceTree = "<group>";
+		};
+		0B3790501C5FE4F20021C87F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				0B3790511C5FE9500021C87F /* bg.png */,
+				0B37904C1C5FE4EC0021C87F /* menu@2x.png */,
+				0B37904D1C5FE4EC0021C87F /* save@2x.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +250,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B3790291C5FDFD50021C87F /* LaunchScreen.storyboard in Resources */,
+				0B37904E1C5FE4EC0021C87F /* menu@2x.png in Resources */,
+				0B3790521C5FE9500021C87F /* bg.png in Resources */,
 				0B3790261C5FDFD50021C87F /* Assets.xcassets in Resources */,
+				0B37904F1C5FE4EC0021C87F /* save@2x.png in Resources */,
 				0B3790211C5FDFD50021C87F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
